@@ -1,4 +1,4 @@
-# Kirana Transaction Management System 
+# Kirana Transaction Management 
 
 ## Overview
 
