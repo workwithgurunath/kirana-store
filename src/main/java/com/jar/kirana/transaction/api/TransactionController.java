@@ -16,6 +16,9 @@ import com.jar.kirana.transaction.domain.Transactions;
 import com.jar.kirana.transaction.service.TransactionsReadService;
 import com.jar.kirana.transaction.service.TransactionsWriteService;
 
+import io.swagger.annotations.Api;
+
+@Api()
 @RestController
 @RequestMapping("/api/v1")
 public class TransactionController {
