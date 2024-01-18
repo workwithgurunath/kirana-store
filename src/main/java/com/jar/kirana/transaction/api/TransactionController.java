@@ -37,7 +37,7 @@ public class TransactionController {
         return ResponseEntity.ok(transactionResponse);
     }
 
-    @GetMapping("/transaction/daily-report")
+    @GetMapping("/transactions/daily-report")
     public ResponseEntity<List<Transactions>> getDailyReport(@RequestParam(required = false) String date) {
         List<Transactions> dayTransactions = transactionsReadService.getDailyReport(date);
         return ResponseEntity.ok(dayTransactions);
