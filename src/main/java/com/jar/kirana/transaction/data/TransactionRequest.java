@@ -7,7 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 @Data
 @Builder
-public class KiranaTransactionRequest {
+public class TransactionRequest {
    
     private List<String> itemsPurchased;
     

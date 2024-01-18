@@ -16,5 +16,6 @@
 	<property name="now" value="sysdate" dbms="oracle" />
 	<property name="now" value="now()" dbms="mysql,postgresql" />
 	   <!-- Include existing changelog files -->
-    <include file="classpath:/db/changelog/V00001__creat_kirana_transaction.xml"/>
+    <include file="classpath:/db/changelog/V00000__add_primary_key_changelog_table.xml"/>
+	<include file="classpath:/db/changelog/V00001__creat_k_transactions.xml"/>
 </databaseChangeLog>

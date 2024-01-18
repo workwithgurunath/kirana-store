@@ -5,7 +5,7 @@
                                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
 
     <changeSet id="createTable-kirana_transactions" author="Gurunath">
-        <createTable tableName="kirana_transactions">
+        <createTable tableName="k_transactions">
             <column name="id" type="BIGINT" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
