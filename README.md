@@ -30,12 +30,21 @@ The Kirana Transaction Management System is a Spring Boot application designed t
 - JPA
 - Liquibase
 - Lombok
+- 
 
 ## Getting Started
 
 **1.** Clone this project:
 ```bash
 git clone https://github.com/workwithgurunath/kirana-store.git
+```
+
+**1.** // Do this After cloning :
+```bash
+  I have been using Mysql For database Stroage
+create a database named kirana_store 
+`create database kirana_store;`
+
 ```
 
 **1.** Api Signitures:
