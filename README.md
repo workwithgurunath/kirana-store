@@ -33,8 +33,6 @@ The Kirana Transaction Management System is a Spring Boot application designed t
 
 ## Getting Started
 
-1. **Clone the Repository:**
-
 **1.** Clone this project:
 ```bash
 git clone https://github.com/workwithgurunath/kirana-store.git
